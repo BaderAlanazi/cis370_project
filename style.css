@@ -1,0 +1,116 @@
+#redLight, #greenLight {
+    height: 180px;
+    position: relative;
+    cursor: pointer;
+    float: right;
+    top: 80px;
+    right: 45px;
+}
+#greenLight {
+    display: none;
+    cursor: default;
+}
+
+.items {
+    border-radius: 50%;
+    max-width: 100%;
+    position: relative;
+    height: 56px;
+    opacity: 1;
+    border-bottom: 1px solid black;
+}
+.labelImg {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    height: 56px;
+    border-bottom: 1px dashed black;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    left: 100px;
+}
+.round {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #723e3e;
+    opacity: 0.3;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.round:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.round {
+    border-radius: 34px;
+}
+.round:before {
+    border-radius: 50%;
+}
+div {
+    height: auto;
+    margin: auto;
+}
+#item1Win, #item2Win {
+    display: none;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+#p {
+    font-size: 24px;
+    text-align: center;
+    color: green;
+}
+#note {
+    display: none;
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+#olympicsPic {
+    max-width: 100%;
+    width: 15%;
+    left: 7.4%;
+    top: 10px;
+    position: absolute;
+    
+}
+h1 {
+    color: #0286C4;
+}
+h3 {
+    color: #000000;
+}
+#lightNote {
+    position: relative;
+    bottom: 40px;
+    float: right;
+    text-align: right;
+    left: 50px;
+    font-size: 13px;
+    color: red;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0286C4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    opacity: 0.6;
+    overflow: hidden;
+}

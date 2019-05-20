@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0121)https://blackboard.missouristate.edu/bbcswebdav/pid-5485025-dt-content-rid-29043899_1/courses/CIS370-SP18-35638/index.htm -->
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Final Project</title>
+        <meta name="description" content="HTML5 Template">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel='stylesheet' type="text/css" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+<body>
+    <img src="images/olympics.png" id="olympicsPic" />
+    <img src="images/lights/redLight.png" id="redLight" onclick="switchLight()" />
+    <img src="images/lights/greenLight.png" id="greenLight" />        
+    <div>
+        <h1 style="text-align: center;">100M Men - Olympic Athletics</h1>
+        <h3 style="text-align: center;">Usain Bolt Vs. Justin Gatlin</h3>
+        <div id="lightNote"><b>Click below to begin</b></div>
+        <div class="labels">
+            <label class="labelImg">
+                <span class="round" id="round1"></span>            
+                <img src="images/Bolt_Usain.jpg" class="items" id="item1" />
+
+            </label>
+            <br><br>
+            <label class="labelImg" id="labelImg">
+                <span class="round" id="round2"></span>
+                <img src="images/Gatlin_Justin.jpg" class="items" id="item2" />
+            </label>
+
+            <p id='p'></p> 
+            <img src="images/item1Win.png" id="item1Win" onclick="reset()" />
+            <img src="images/item2Win.png" id="item2Win" onclick="reset()" />
+            <p id="note">* Click the picture to reset.</p>
+        </div>
+    </div>
+    <script id="wappalyzer" src="chrome-extension://gppongmhjkpfnbhagpmjfkannfbllamg/js/inject.js"></script>
+    <footer><b>&copy; </b>Bader Alanazi</footer>
+</body>
+</html>
